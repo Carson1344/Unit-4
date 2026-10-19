@@ -1,0 +1,275 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "name" : "egg top",
+            "rotation" : [
+                -5.69808236150493e-08,
+                0.16595269739627838,
+                0.9861337542533875,
+                3.2312026831959884e-08
+            ],
+            "scale" : [
+                1,
+                1.0000003576278687,
+                1.0000027418136597
+            ],
+            "translation" : [
+                -4.372880724190509e-08,
+                0,
+                0.17319072782993317
+            ]
+        },
+        {
+            "name" : "egg bottom",
+            "rotation" : [
+                -5.698088401118184e-08,
+                -0.16595186293125153,
+                0.986133873462677,
+                -3.231199841025045e-08
+            ],
+            "scale" : [
+                1,
+                1,
+                1.0000004768371582
+            ],
+            "translation" : [
+                4.372862250079379e-08,
+                2.9802322387695312e-08,
+                -0.17318999767303467
+            ]
+        },
+        {
+            "children" : [
+                2,
+                3
+            ],
+            "name" : "root",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                0.7071068286895752,
+                0
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "7_Itm030c01_0.1_16_16",
+            "skin" : 0
+        },
+        {
+            "children" : [
+                5,
+                4
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "name" : "7_Itm030c01_0.1_16_16",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "7_Itm030c01_0.1_16_16",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "COLOR_0" : 3,
+                        "JOINTS_0" : 4,
+                        "WEIGHTS_0" : 5
+                    },
+                    "indices" : 6,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Itm030c01_egg_di",
+            "uri" : "Itm030c01_egg_di.png"
+        }
+    ],
+    "skins" : [
+        {
+            "inverseBindMatrices" : 7,
+            "joints" : [
+                4,
+                2,
+                3
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1928,
+            "max" : [
+                0.1863964945077896,
+                0.18682712316513062,
+                0.18587152659893036
+            ],
+            "min" : [
+                -0.18639659881591797,
+                -0.1851041316986084,
+                -0.18587148189544678
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1928,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1928,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 1928,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 1928,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1928,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 9000,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 3,
+            "type" : "MAT4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 23136,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23136,
+            "byteOffset" : 23136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15424,
+            "byteOffset" : 46272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30848,
+            "byteOffset" : 61696
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15424,
+            "byteOffset" : 92544
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 30848,
+            "byteOffset" : 107968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18000,
+            "byteOffset" : 138816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 156816
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 157008,
+            "uri" : "Cell Egg - Dragon Ball.bin"
+        }
+    ]
+}
